@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Vetri Electronics</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <nav>  
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/images/logo.png" alt="Company Logo">
+                </a>
+                <!-- <h4>Vetri Electronics</h4> -->
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">☰</label>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <div class="products-dropdown">
+                    <input type="checkbox" id="products-toggle" hidden>
+                    <label for="products-toggle" class="dropbtn">Products<span> ▾</span></label>
+                    <ul class="dropdown-content">
+                        <li><a href="products_new.html?category=All">All Products</a></li>
+                        <li><a href="products_new.html?category=Laptops">Laptops</a></li>
+                        <li><a href="products_new.html?category=Mobiles">Mobiles</a></li>
+                        <li><a href="products_new.html?category=Headphones">Headphones</a></li>
+                    </ul>                    
+                </div>
+                <a href="cart.html">Cart</a>
+                <a href="login.html">Login</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <input type="text" id="search-box" placeholder="Search products..." onkeyup="searchProducts()">
+    <div class="products-container">
+        <div class="sidebar">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#" category="Laptops">Laptops</a></li>
+                <li><a href="#" category="Mobiles">Mobiles</a></li>
+                <li><a href="#" category="Headphones">Headphones</a></li>
+            </ul>
+        </div>
+
+        <div class="products"></div>
+    </div>
+<script src="./assets/js/products.js"></script>
+</body>
+</html>

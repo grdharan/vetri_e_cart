@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Checkout</title>
+</head>
+<body>
+
+    <nav>  
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/images/logo.png" alt="Company Logo">
+                </a>
+                <!-- <h4>Vetri Electronics</h4> -->
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">☰</label>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <div class="products-dropdown">
+                    <input type="checkbox" id="products-toggle" hidden>
+                    <label for="products-toggle" class="dropbtn">Products<span> ▾</span></label>
+                    <ul class="dropdown-content">
+                        <li><a href="products_new.html?category=All">All Products</a></li>
+                        <li><a href="products_new.html?category=Laptops">Laptops</a></li>
+                        <li><a href="products_new.html?category=Mobiles">Mobiles</a></li>
+                        <li><a href="products_new.html?category=Headphones">Headphones</a></li>
+                    </ul>    
+                </div>
+                <a href="cart.html">Cart</a>
+                <a href="login.html">Login</a>
+            </div>
+
+        </div>
+    </nav>
+    <div class="checkout-container">
+        <h2>Checkout</h2>
+
+        <form class="checkout-form">
+            <h3>Billing Details</h3>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <h3>Payment Method</h3>
+            <div class="payment-options">
+                <div class="payment-option" data-value="Credit Card">
+                    <i class="fas fa-credit-card"></i>
+                    <span>Credit Card</span>
+                </div>
+            
+                <div class="payment-option" data-value="Debit Card">
+                    <i class="fas fa-university"></i>
+                    <span>Debit Card</span>
+                </div>
+            
+                <div class="payment-option" data-value="UPI">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>UPI</span>
+                </div>
+            
+                <div class="payment-option" data-value="Cash on Delivery">
+                    <i class="fas fa-wallet"></i>
+                    <span>Cash on Delivery</span>
+                </div>
+            </div>            
+
+            <input type="hidden" name="payment" id="selected-payment" required>
+
+            <h3>Order Summary</h3>
+            <p>Total Price: <strong></strong></p>
+
+            <button type="submit" class="checkout-btn">Place Order</button>
+        </form>
+    </div>
+<script src="./assets/js/checkout.js"></script>
+</body>
+</html>

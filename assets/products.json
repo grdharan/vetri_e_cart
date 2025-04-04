@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Lenovo Legion 5 Intel Core i7",
+        "image": "assets/images/product1.jpg",
+        "price": 65000,
+        "description": "13th Gen 13650HX-24 GB/512 GB SSD",
+        "category": "Laptops",
+        "information": "This Lenovo Legion 5 comes with a 13th Gen Intel Core i7 processor, NVIDIA GeForce RTX 3060, and a 15.6-inch FHD display with a 144Hz refresh rate. Ideal for gaming and productivity."
+    },
+    {
+        "name": "Moto Edge 50 Fusion",
+        "image": "assets/images/product2.jpg",
+        "price": 21000,
+        "description": "128 GB/6 GB RAM - Viva Magenta",
+        "category": "Mobiles",
+        "information": "Moto Edge 50 Fusion features a 6.7-inch OLED display with a 120Hz refresh rate, a Snapdragon 778G processor, and a 5000mAh battery for long-lasting performance."
+    },
+    {
+        "name": "Realme Mustang",
+        "image": "assets/images/product3.jpg",
+        "price": 7999,
+        "description": "70Hrs Battery - 40mm Boost",
+        "category": "Headphones",
+        "information": "The Realme Mustang delivers an immersive sound experience with 40mm dynamic drivers, 70 hours of battery life, and fast charging support."
+    },
+    {
+        "name": "ASUS TUF Gaming-Ryzen 5",
+        "image": "assets/images/product4.jpg",
+        "price": 59000,
+        "description": "13th Gen ASD-18 GB/512 GB SSD",
+        "category": "Laptops",
+        "information": "This ASUS TUF Gaming laptop is powered by a Ryzen 5 processor, NVIDIA GeForce GTX graphics, a 144Hz refresh rate display, and a durable military-grade build."
+    },
+    {
+        "name": "Google Pixel 8a",
+        "image": "assets/images/product5.jpg",
+        "price": 37999,
+        "description": "Obsidian, 128 GB (8 GB RAM)",
+        "category": "Mobiles",
+        "information": "The Google Pixel 8a offers a 6.3-inch OLED display, Google's custom Tensor G2 chipset, an AI-powered camera, and 5G connectivity for a premium experience."
+    },
+    {
+        "name": "Realme Wireless Buds 3",
+        "image": "assets/images/product6.jpg",
+        "price": 1499,
+        "description": "29Hrs Battery - 40mm Boost",
+        "category": "Headphones",
+        "information": "Realme Wireless Buds 3 feature active noise cancellation, Bluetooth 5.2, a 40mm boost driver for powerful bass, and up to 29 hours of battery life."
+    },
+    {
+        "name": "Apple M1 Air",
+        "image": "assets/images/product7.webp",
+        "price": 59999,
+        "description": "8 GB/256 GB SSD/Mac - MGN63HN/A",
+        "category": "Laptops",
+        "information": "Apple MacBook Air with M1 chip delivers blazing-fast performance, a fanless design, Retina display, and all-day battery life, making it a perfect choice for productivity."
+    },
+    {
+        "name": "Moto Razr 50 Ultra",
+        "image": "assets/images/product8.jpg",
+        "price": 49849,
+        "description": "Midnight blue, 512 GB - 12 GB RAM",
+        "category": "Mobiles",
+        "information": "The Moto Razr 50 Ultra is a foldable smartphone with a 6.9-inch pOLED main display, Snapdragon 8 Gen 1 processor, and a high-end dual-camera setup."
+    },
+    {
+        "name": "Skull Candy Hesh Evo",
+        "image": "assets/images/product9.jpg",
+        "price": 29999,
+        "description": "36Hrs Battery - 40mm drivers ANC",
+        "category": "Headphones",
+        "information": "The Skull Candy Hesh Evo wireless headphones provide premium sound quality, active noise cancellation, and up to 36 hours of battery life with rapid charging support."
+    }
+]

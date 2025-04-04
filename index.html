@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Vetri Electronics</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <nav>  
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/images/logo.png" alt="Company Logo">
+                </a>
+                <!-- <h4>Vetri Electronics</h4> -->
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">☰</label>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <div class="products-dropdown">
+                    <input type="checkbox" id="products-toggle" hidden>
+                    <label for="products-toggle" class="dropbtn">Products<span> ▾</span></label>
+                    <ul class="dropdown-content">
+                        <li><a href="products_new.html?category=All">All Products</a></li>
+                        <li><a href="products_new.html?category=Laptops">Laptops</a></li>
+                        <li><a href="products_new.html?category=Mobiles">Mobiles</a></li>
+                        <li><a href="products_new.html?category=Headphones">Headphones</a></li>
+                    </ul>                    
+                </div>
+                <a href="cart.html">Cart</a>
+                <a href="login.html">Login</a>
+            </div>
+
+        </div>
+    </nav>
+    <!-- <div class="banner-slider"> -->
+        <div class="slider" id="slider">
+            <img src="/assets/images/banner1.jpg" class="slide active" alt="Banner 1">
+            <img src="/assets/images/banner2.jpg" class="slide" alt="Banner 2">
+            <img src="/assets/images/banner3.jpg" class="slide" alt="Banner 3">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+        
+    <!-- </div> -->
+    <!-- <header class="header">
+        <h1 class="head-title">Welcome to <img src="./assets/images/logo.png"></h1>
+        <br/>
+        <h2>Dealers in Electronics & Accesories</h2>
+        <p>We Deliver Quality Products at Affordable Prices.</p>
+    </header> -->
+    
+    <div class="products-index-container">
+            <div class="cards">
+                <img src="./assets/images/product1.jpg" alt="Laptops" width="150"><br>
+                <strong>Laptops</strong><br>
+                <p>High-quality item for your needs.</p>
+            </div>
+            <div class="cards">
+                <img src="./assets/images/product2.jpg" alt="Mobiles" width="150"><br>
+                <strong>Mobiles</strong><br>
+                <p>reliable and durable product.</p>
+            </div>
+            <div class="cards">
+                <img src="./assets/images/product3.jpg" alt="Headphones" width="150"><br>
+                <strong>Headphones</strong><br>
+                <p>The best choice for professionals.</p>
+            </div>
+    </div>
+    <div class="explore">
+        <a href="products_new.html"><h1>Explore Our Products</h1></a>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

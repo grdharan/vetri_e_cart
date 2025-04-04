@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+
+    <nav>  
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/images/logo.png" alt="Company Logo">
+                </a>
+                <!-- <h4>Vetri Electronics</h4> -->
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">☰</label>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <div class="products-dropdown">
+                    <input type="checkbox" id="products-toggle" hidden>
+                    <label for="products-toggle" class="dropbtn">Products<span> ▾</span></label>
+                    <ul class="dropdown-content">
+                        <li><a href="products_new.html?category=All">All Products</a></li>
+                        <li><a href="products_new.html?category=Laptops">Laptops</a></li>
+                        <li><a href="products_new.html?category=Mobiles">Mobiles</a></li>
+                        <li><a href="products_new.html?category=Headphones">Headphones</a></li>
+                    </ul>    
+                </div>
+                <a href="cart.html">Cart</a>
+                <a href="login.html">Login</a>
+            </div>
+
+        </div>
+    </nav>
+    <h2 class="cart-title">Shopping Cart</h2>
+
+<table class="cart-table"></table>
+
+<h3 class="total-price">Total: ₹ 0</h3>
+
+<a href="checkout.html">
+    <button class="checkout-btn">Proceed to Checkout</button>
+</a>
+<script src="./assets/js/cart.js"></script>
+</body>
+</html>

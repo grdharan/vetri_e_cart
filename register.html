@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Sign Up</title>
+</head>
+<body>
+
+    <nav>  
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/images/logo.png" alt="Company Logo">
+                </a>
+                <!-- <h4>Vetri Electronics</h4> -->
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">☰</label>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <div class="products-dropdown">
+                    <input type="checkbox" id="products-toggle" hidden>
+                    <label for="products-toggle" class="dropbtn">Products<span> ▾</span></label>
+                    <ul class="dropdown-content">
+                        <li><a href="products_new.html?category=All">All Products</a></li>
+                        <li><a href="products_new.html?category=Laptops">Laptops</a></li>
+                        <li><a href="products_new.html?category=Mobiles">Mobiles</a></li>
+                        <li><a href="products_new.html?category=Headphones">Headphones</a></li>
+                    </ul>    
+                </div>
+                <a href="cart.html">Cart</a>
+                <a href="login.html">Login</a>
+            </div>
+
+        </div>
+    </nav>
+
+   
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+
+        <form class="signup-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="phone">Phone:</label>
+            <input type="number" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit" class="signup-btn">Sign Up</button>
+
+            <p id="signup-message"></p>
+
+            <p class="login-redirect">Already have an account? <a href="login.html">Login</a></p>
+        </form>
+    </div>
+
+    <script src="./assets/js/signupAndLogin.js"></script>
+</body>
+</html>
